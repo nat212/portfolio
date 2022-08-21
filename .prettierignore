@@ -1,0 +1,7 @@
+yarn.lock
+package.json
+next-env.d.ts
+tsconfig.json
+.next
+.husky
+public
