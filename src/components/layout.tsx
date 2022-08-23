@@ -35,7 +35,7 @@ class Layout extends React.Component<LayoutProps> {
             <>
                 <Head>
                     <title>{`Natasha Draper${pageTitle ? ` - ${pageTitle}` : ''}`}</title>
-                    <meta name="description" content="Natasha Draper portfolio" />
+                    <meta name="description" content="Natasha Draper - Frontend Developer" />
                     <meta
                         name="og:image"
                         content={`https://og-image.natashadraper.co.za/**Natasha%20Draper**.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fnatashadraper.co.za%2Ffavicon.png&widths=300&heights=300`}
