@@ -46,11 +46,10 @@ export default class Contact extends React.Component<void, ContactState> {
     };
 
     render() {
-        const inputClass = 'rounded-md border-gray-300 shadow-sm text-black';
         return (
             <>
-                <h1 className='text-3xl mb-5'>Contact Me</h1>
-                <form className='flex flex-col space-y-2.5' onSubmit={this.handleSubmit}>
+                <h1 className="text-3xl mb-5">Contact Me</h1>
+                <form className="flex flex-col space-y-2.5 md:w-1/4" onSubmit={this.handleSubmit}>
                     {this.state.message ? (
                         <div
                             className={`${cn({
@@ -61,11 +60,23 @@ export default class Contact extends React.Component<void, ContactState> {
                             {this.state.message}
                         </div>
                     ) : null}
-                    <input name='name' className={inputClass} type='text' placeholder='Name *' required />
-                    <input name='email' className={inputClass} type='email' placeholder='Email Address *' required />
-                    <input name='subject' className={inputClass} type='text' placeholder='Subject *' required />
-                    <textarea name='message' className={inputClass} placeholder='Message *' required />
-                    <button type='submit' className='bg-pink-600 p-2 rounded-md'>
+                    <div className="flex flex-col">
+                        <label htmlFor="name">Name *</label>
+                        <input id="name" name="name" className="form-input" type="text" required />
+                    </div>
+                    <div className="flex flex-col">
+                        <label htmlFor="email">Email Address *</label>
+                        <input id="email" name="email" className="form-input" type="email" required />
+                    </div>
+                    <div className="flex flex-col">
+                        <label htmlFor="subject">Subject *</label>
+                        <input id="subject" name="subject" className="form-input" type="text" required />
+                    </div>
+                    <div className="flex flex-col">
+                        <label htmlFor="message">Message *</label>
+                        <textarea id="message" name="message" className="form-input" required />
+                    </div>
+                    <button type="submit" className="btn-primary">
                         Submit
                     </button>
                 </form>

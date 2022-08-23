@@ -1,0 +1,71 @@
+{
+    "languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Sass/SCSS",
+        "Dart",
+        "Python",
+        "C/C++",
+        "Java",
+        "SQL/PLPGSQL"
+    ],
+    "frameworks": [
+        "Angular",
+        "Next.js",
+        "React",
+        "TailwindCSS",
+        "Bootstrap",
+        "JQuery",
+        "Material Design",
+        "Flutter",
+        "Django",
+        "Aiohttp",
+        "Flask",
+        "FastAPI"
+    ],
+    "software": [
+        "IntelliJ IDEA",
+        "WebStorm",
+        "PyCharm",
+        "Rider",
+        "Android Studio",
+        "Visual Studio Code",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe InDesign",
+        "Adobe XD",
+        "Figma",
+        "PostgreSQL",
+        "MariaDB",
+        "Google Workspace",
+        "Nextcloud/ownCloud",
+        "Mail-in-a-box",
+        "Dovecot",
+        "GNU/Linux",
+        "Microsoft Office"
+    ],
+    "work_experience": [
+        {
+            "company": "University of Pretoria - Computer Science Department",
+            "role": "Tech Team",
+            "start": 2017,
+            "end": 2019,
+            "description": ""
+        },
+        {
+            "company": "Quant Engineering Solutions/GoodX Software",
+            "role": "Full Stack Developer",
+            "start": 2019,
+            "end": 2022,
+            "description": ""
+        },
+        {
+            "company": "Byte Orbit",
+            "role": "Frontend Developer",
+            "start": 2022,
+            "description": ""
+        }
+    ]
+}

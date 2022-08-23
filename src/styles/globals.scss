@@ -27,3 +27,25 @@ a {
     color: white;
   }
 }
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 rounded-xl hover:bg-pink-900 cursor-pointer transition-colors duration-200;
+
+    &.active {
+      @apply bg-pink-600;
+    }
+  }
+
+  .btn-primary {
+    @apply bg-pink-600 p-2 rounded-md hover:shadow-2xl hover:bg-pink-800 transition duration-150 motion-reduce:transition-none;
+  }
+
+  .form-input {
+    @apply rounded-md border-gray-300 shadow-sm text-black;
+  }
+
+  .app-link {
+    @apply flex flex-row items-center text-teal-500 hover:text-slate-900 hover:bg-teal-500 rounded-md px-2 transition-all hover:shadow-lg;
+  }
+}
