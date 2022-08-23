@@ -1,12 +1,11 @@
-import { NextPage } from 'next';
-import Layout from '@components/layout';
+import React from 'react';
 
-const Portfolio: NextPage = () => {
-    return (
-        <Layout activePage='/portfolio' pageTitle='Portfolio'>
-            <div></div>
-        </Layout>
-    );
-};
+export default class Portfolio extends React.Component {
+    static get pageTitle(): string {
+        return 'Portfolio';
+    }
 
-export default Portfolio;
+    render() {
+        return <div></div>;
+    }
+}

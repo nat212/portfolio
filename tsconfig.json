@@ -21,19 +21,19 @@
         "baseUrl": ".",
         "paths": {
             "@components/*": [
-                "components/*"
+                "src/components/*"
             ],
             "@utils/*": [
-                "utils/*"
+                "src/utils/*"
             ],
             "@lib/*": [
-                "lib/*"
+                "src/lib/*"
             ],
             "@pages/*": [
                 "pages/*"
             ],
             "@styles/*": [
-                "styles/*"
+                "src/styles/*"
             ],
             "@public/*": [
                 "public/*"

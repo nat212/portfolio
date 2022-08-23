@@ -1,12 +1,11 @@
-import { NextPage } from 'next';
-import Layout from '@components/layout';
+import React from 'react';
 
-const About: NextPage = () => {
-    return (
-        <Layout activePage='/about' pageTitle='About'>
-            <div></div>
-        </Layout>
-    );
-};
+export default class About extends React.Component {
+    static get pageTitle(): string {
+        return 'About';
+    }
 
-export default About;
+    render() {
+        return <div></div>;
+    }
+}

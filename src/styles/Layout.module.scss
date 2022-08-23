@@ -19,13 +19,14 @@
     .navbar__list {
       list-style: none;
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
       justify-content: center;
 
-      > li {
+      li {
         padding: 0.5rem 2rem;
         border-radius: 12px;
         margin: 0 0.5rem;
+        cursor: pointer;
 
         &:hover {
           background-color: rgba(238, 9, 112, 0.44);
